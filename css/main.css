@@ -1,35 +1,66 @@
+
+/*----------------------------GENERAL STYLES-----------------------------------*/
+
+
 body {
     background-color: hsl(35, 59%, 94%);
-    font-family: "Poppins";
-    font-size: 1rem;
     color:hsl(236, 61%, 9%)
 }
+
+
+/* varia */
 
 a {
     text-decoration: none;
     color: hsl(236, 61%, 9%);
 }
 
-/*
-.flex-direction-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-*/
-
-.flex-direction-column {
-    display: flex;
-    flex-direction: column;
-}
 
 li {
     list-style: none;
-
+    font-family: "poppins";
 }
+
 ul {
     padding:0;
+}
+
+
+
+/* fonts */
+
+
+@font-face {
+    font-family: 'SchmallfetteCP'; 
+    src: url('./fonts/SchmalfetteCP.otf') format('otf'),
+         url('fonts/SchmalfetteCP.ttf') format('ttf'); 
+}
+
+h2 {
+    font-family: "SchmalfetteCP";
+    font-size: 4rem;
+    font-weight: 200;
+    line-height: 100%;
+}
+
+h3 {
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+p {
+    font-family: "Poppins";
+    line-height: 160%;
+
+}
+
+.button p {
+    font-family: "SchmalfetteCP";
+    font-size: 1.8rem;
+    font-weight: 200;
+    line-height: 100%;
 }
 
 
