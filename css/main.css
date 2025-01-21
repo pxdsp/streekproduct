@@ -433,6 +433,16 @@ button {
 
 }
 
+.callout {
+    font-family: 'Bebas Neue';
+    background-color: #C1E5FF;
+    border-radius: 20px;
+    padding:10px 20px;
+    margin-top:20px;
+    font-size:1.3rem;
+
+}
+
 
 
 /*----------------------------BANNER SECTION-----------------------------------*/
@@ -498,10 +508,15 @@ footer h2 {
     flex-direction: column;
     gap:10px;
 
-    margin-right:20px;
-      
+    margin-right:20px;  
 }
 
-.socials img {
+
+.socials a {
     height: 23%;
+}
+
+
+.socials img {
+    height: 100%;
 }
