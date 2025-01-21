@@ -16,6 +16,7 @@ a {
 }
 
 
+
 li {
     list-style: none;
     font-family: "poppins";
@@ -194,6 +195,7 @@ nav a {
 }
 
 
+
 /*----------------------------INSPIRATION SECTION-----------------------------------*/
 
 
@@ -338,7 +340,51 @@ button {
 }
 
 
+/*----------------------------BUY FAVOURITES SECTION-----------------------------------*/
+
+
+#buy-favourites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+
+    background-color: #F9F2E8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#buy-favourites h2 {
+    color: #090B25;
+    text-align: center;
+}
+
+/* aanpassingen kleur enzo*/
+
+#buy-favourites .button-card {
+    background-color: #CEDA95;
+}
+
+#buy-favourites .shop-online-card {
+    background-color:#95AB2C ;
+    color:#F9F2E8;
+}
+
+#buy-favourites .shop-online-card button {
+    background-color: #F9F2E8;
+    color:#95AB2C;
+}
+
+#buy-favourites .button-card > img:first-of-type {
+    object-fit: contain;
+    padding: 10px;
+}
+
+
+
 /*----------------------------OUR STORY SECTION-----------------------------------*/
+
 
 
 #ourstory-section {
