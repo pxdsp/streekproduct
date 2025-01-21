@@ -20,6 +20,7 @@ a {
 li {
     list-style: none;
     font-family: "poppins";
+    font-size: 1.1rem;
 }
 
 ul {
@@ -54,6 +55,7 @@ h3 {
 p {
     font-family: "Poppins";
     line-height: 160%;
+    font-size: 1.1rem;
 
 }
 
@@ -241,7 +243,7 @@ nav a {
 }
 
 .single-recipe img {
-    height: 200px;
+    height: 160px;
 }
 
 .single-recipe:nth-child(2) {
@@ -271,6 +273,7 @@ nav a {
 #pointofsale-section h2 {
     color: #F9F2E8;
     text-align: center;
+    margin-top: 20px;
 }
 
 /* button card*/
@@ -294,7 +297,19 @@ nav a {
     border-radius: 8px;
     width: 100%;
     object-fit: cover;
-    
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:10px;
+
+    margin-top: 20px;
+}
+
+.wrap h3 {
+    width: 200px;
 }
 
 
@@ -331,7 +346,7 @@ button {
 
     background-color: #CEDA95;
     border-radius: 20px;
-    padding: 20px;
+    padding: 25px 20px 20px 30px;
     width: 50%;
 } 
 
@@ -378,7 +393,10 @@ button {
 
 #buy-favourites .button-card > img:first-of-type {
     object-fit: contain;
-    padding: 10px;
+}
+
+#buy-favourites .button-card button {
+    background-color: #95AB2C;
 }
 
 
@@ -393,7 +411,7 @@ button {
     gap:40px;
     align-items: center;
 
-    margin:20px;
+    margin:80px 20px;
 }
 
 #ourstory-section img {
@@ -441,6 +459,7 @@ button {
     flex-direction: column;
     gap:20px;
 }
+
 
 
 
