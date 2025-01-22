@@ -599,7 +599,7 @@ footer h2 {
 
 /* hover effectje voor links*/
 
-a::after {
+a p::after {
     content: '';
     display: block;
     width: 0;
@@ -608,7 +608,7 @@ a::after {
     transition: width 0.3s;
 }
 
-a:hover::after {
+a p:hover::after {
     width: 100%;
 }
 
