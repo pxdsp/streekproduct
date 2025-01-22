@@ -541,6 +541,17 @@ nav img:first-child {
     }
   }
 
+  @media (min-width: 1000px) {
+    .all-button-cards {
+      flex-wrap: nowrap; /* Forceer een rij, geen wrapping */
+      justify-content: space-between; /* Gelijkmatige verdeling van de kaarten */
+    }
+  
+    .button-card {
+      flex: 1 1 33.33%; /* Zorg dat kaarten exact een derde innemen */
+    }
+  }
+
 .button-card img:first-child {
     height: 250px;
     border-radius: 8px;
