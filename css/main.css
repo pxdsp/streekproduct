@@ -98,6 +98,13 @@ b {
     }
 }
 
+@media (max-width: 450px) {
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
 
 
 /* button */
