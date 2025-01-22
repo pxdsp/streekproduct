@@ -91,6 +91,12 @@ b {
     font-weight: 600;
 }
 
+@media (max-width: 1050px) {
+    
+}
+
+
+
 /* button */
 
 .button {
@@ -164,6 +170,24 @@ nav a {
     color: hsl(236, 61%, 9%);
 }
 
+nav img:first-child {
+    display: none;
+}
+
+@media (max-width: 1050px) {
+
+    .fixed ul {
+        display: none;
+    }
+
+    nav img:first-child {
+        display:block;
+        height: 40px;
+    }
+
+
+}
+
 
 /* header text */
 
@@ -192,6 +216,13 @@ nav a {
     background-color: #F8BA35;
 }
 
+@media (max-width: 1050px) {
+
+    header h1 {
+        font-size: 5rem;
+    }
+}
+
 
 /* red banner */
 
@@ -200,6 +231,7 @@ nav a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap:20px;
 
     background-color: #EB4F26;
     padding: 30px 60px;
@@ -207,11 +239,19 @@ nav a {
     border-radius: 20px;
     color:hsl(35, 59%, 94%);
     text-align: center;
-    font-size: 0.8rem;
+}
+
+.red-banner p {
+    font-size: 0.9rem;
 }
 
 .red-banner img {
     height: 40px;
+}
+
+@media (max-width: 1050px) {
+
+    
 }
 
 
