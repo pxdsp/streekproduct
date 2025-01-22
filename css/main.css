@@ -56,7 +56,7 @@ h1 {
     font-size:6rem;
     font-weight: 200;
     line-height: 100%;
-    color:#F9F2E8
+    color:hsl(35, 59%, 94%)
 }
 
 h2 {
@@ -117,8 +117,8 @@ b {
 
     border: none;
     border-radius: 8px;
-    background-color: #EB4F26;
-    color:#F9F2E8;
+    background-color: hsl(12, 83%, 54%);
+    color:hsl(35, 59%, 94%);
     width: fit-content;
     padding: 10px 16px 8px 16px;
 
@@ -159,11 +159,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 13px 60px;
-    background-color: #F9F2E8;
+    background-color: hsl(35, 59%, 94%);
     border-radius: 20px;
     width: 100%;
 
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 4px 6px hsla(0, 0%, 0%, 0.1); 
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     max-width: 1420px;
     margin: 0 auto;
@@ -239,32 +239,28 @@ nav img:first-child {
     gap:10px;
     align-items: center;
     padding: 13px 60px;
-    background-color: #F9F2E8;
+    background-color: hsl(35, 59%, 94%);
     border-radius: 20px;
     width: 100%;
 
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 4px 6px hsla(0, 0%, 0%, 0.1); 
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     margin: 0 auto;
 }
 
-/* Verberg de checkbox */
 .toggle-checkbox {
     display: none;
   }
   
-  /* Basisstijl voor de fixed-hamburger (verborgen standaard) */
   .fixed-hamburger {
     display: none;
   }
   
-  /* Als de checkbox is aangevinkt, toon de fixed-hamburger */
 .toggle-checkbox:checked ~ .fixed-hamburger {
     display: block;
   }
   
-  /* Hamburger button stijl */
-  label[for="toggle-menu"] {
+label[for="toggle-menu"] {
     cursor: pointer;
   }
 
@@ -295,7 +291,7 @@ nav img:first-child {
 }
 
 .header-content .button {
-    background-color: #F8BA35;
+    background-color: hsl(41, 93%, 59%);
 }
 
 @media (max-width: 1050px) {
@@ -323,7 +319,7 @@ nav img:first-child {
     align-items: center;
     gap:20px;
 
-    background-color: #EB4F26;
+    background-color: hsl(12, 83%, 54%);
     padding: 30px 60px;
     margin: 20px;
     border-radius: 20px;
@@ -373,7 +369,7 @@ nav img:first-child {
 
     margin: 20px;
     padding: 20px;
-    background-color: #F8BA35;
+    background-color: hsl(41, 93%, 59%);
     border-radius: 20px;
     scroll-margin-top: 145px; 
     
@@ -514,7 +510,7 @@ nav img:first-child {
     align-items: center;
 
     width: 100%;
-    background-color: #75C5FF;
+    background-color: hsl(205, 100%, 73%);
     padding: 10px 20px;
     border-radius: 20px;
 }
@@ -524,11 +520,11 @@ nav img:first-child {
 }
 
 .single-recipe:nth-child(2) {
-    background-color: #EB4F26;
+    background-color: hsl(12, 83%, 54%);
 }
 
 .single-recipe:nth-child(3) {
-    background-color: #F8BA35;
+    background-color: hsl(41, 93%, 59%);
 }
 
 @media (max-width: 1050px) {
@@ -554,7 +550,7 @@ nav img:first-child {
     align-items: center;
     gap:20px;
 
-    background-color: #95AB2C;
+    background-color: hsl(70, 59%, 42%);
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
@@ -563,7 +559,7 @@ nav img:first-child {
 }
 
 #pointofsale-section h2 {
-    color: #F9F2E8;
+    color: hsl(35, 59%, 94%);
     text-align: center;
     margin-top: 20px;
 }
@@ -584,7 +580,7 @@ nav img:first-child {
     border-radius: 20px;
     padding: 20px;
     margin: 10px;
-    background-color: #F9F2E8;
+    background-color: hsl(35, 59%, 94%);
     flex: 1 1 calc(33.33% - 20px); 
     box-sizing: border-box;
     min-width: 250px; 
@@ -639,7 +635,7 @@ nav img:first-child {
     align-items:end;
     gap:20px;
 
-    background-color: #CEDA95;
+    background-color: hsl(70, 48%, 72%);
     border-radius: 20px;
     padding: 25px 20px 20px 30px;
     width: 50%;
@@ -652,7 +648,7 @@ nav img:first-child {
 }
 
 .shop-online-card .button {
-    background-color: #95AB2C;
+    background-color: hsl(70, 59%, 42%);
 }
 
 
@@ -665,7 +661,7 @@ nav img:first-child {
     align-items: center;
     gap:20px;
 
-    background-color: #F9F2E8;
+    background-color: hsl(35, 59%, 94%);
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
@@ -674,24 +670,24 @@ nav img:first-child {
 }
 
 #buy-favourites h2 {
-    color: #090B25;
+    color: hsl(236, 61%, 9%);
     text-align: center;
 }
 
 /* aanpassingen kleur enzo*/
 
 #buy-favourites .button-card {
-    background-color: #CEDA95;
+    background-color: hsl(70, 48%, 72%);
 }
 
 #buy-favourites .shop-online-card {
-    background-color:#95AB2C ;
-    color:#F9F2E8;
+    background-color:hsl(70, 59%, 42%) ;
+    color:hsl(35, 59%, 94%);
 }
 
 #buy-favourites .shop-online-card button {
-    background-color: #F9F2E8;
-    color:#95AB2C;
+    background-color: hsl(35, 59%, 94%);
+    color:hsl(70, 59%, 42%);
 }
 
 #buy-favourites .button-card > img:first-of-type {
@@ -699,7 +695,7 @@ nav img:first-child {
 }
 
 #buy-favourites .button-card button {
-    background-color: #95AB2C;
+    background-color: hsl(70, 59%, 42%);
 }
 
 
@@ -719,7 +715,7 @@ nav img:first-child {
 }
 
 #ourstory-section img {
-    border:#75C5FF solid 15px;
+    border:hsl(205, 100%, 73%) solid 15px;
     border-radius: 20px;
     width: 300px;
     height: 400px;
@@ -735,7 +731,7 @@ nav img:first-child {
 
 .callout {
     font-family: 'Bebas Neue';
-    background-color: #C1E5FF;
+    background-color: hsl(205, 100%, 88%);
     border-radius: 20px;
     padding:10px 20px;
     margin-top:20px;
@@ -768,16 +764,16 @@ nav img:first-child {
     gap:60px;
 
     margin:20px;
-    background-color: #EB4F26;
-    color:#F9F2E8;
+    background-color: hsl(12, 83%, 54%);
+    color:hsl(35, 59%, 94%);
     border-radius: 20px;
     padding:80px 150px;
 
 }
 
 #banner-section .button {
-    background-color: #F9F2E8;
-    color: #EB4F26;
+    background-color: hsl(35, 59%, 94%);
+    color: hsl(12, 83%, 54%);
 }
 
 .banner-text {
@@ -894,7 +890,7 @@ a p::after {
     display: block;
     width: 0;
     height: 2px;
-    background: #EB4F26;
+    background: hsl(12, 83%, 54%);
     transition: width 0.3s;
 }
 
