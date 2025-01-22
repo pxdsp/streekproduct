@@ -381,18 +381,40 @@ nav img:first-child {
     gap:60px;
 }
 
+@media (max-width: 1050px) {
+  #inspiration-section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+    #inspiration-section {
+      flex-direction: column;
+      padding:40px 20px;
+    }
+  }
+
 
 /* text left */
 
 .text {
     width: 40%;
-    padding-right:50px;
 }
+
+
 
 .text h2 {
     margin-bottom: 20px;
 }
 
+
+@media (max-width: 1050px) {
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+
+}
 
 /* all recipes */
 
@@ -428,6 +450,19 @@ nav img:first-child {
     background-color: #F8BA35;
 }
 
+@media (max-width: 1050px) {
+  .all-recipes {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .single-recipe {
+    flex-direction: column;
+    padding:20px 0;
+  }
+}
+
 
 /*----------------------------POINTS OF SALE SECTION-----------------------------------*/
 
@@ -450,15 +485,13 @@ nav img:first-child {
     margin-top: 20px;
 }
 
-/* @media (max-width: 900px) {
-  // Add your styles here
-} */
 
-/* button card*/
 
 .all-button-cards {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
 }
 
 .button-card {
@@ -467,7 +500,10 @@ nav img:first-child {
     overflow: clip;
     margin:10px;
     background-color: #F9F2E8;
-    width: 100%;
+
+    flex: 1 1 calc(33.33% - 20px); 
+    box-sizing: border-box; 
+
 }
 
 .button-card img:first-child {
@@ -495,15 +531,28 @@ nav img:first-child {
 
 .shop-online-card {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items:end;
+    gap:20px;
 
     background-color: #CEDA95;
     border-radius: 20px;
     padding: 25px 20px 20px 30px;
     width: 50%;
 } 
+
+@media (max-width: 1050px) {
+  .shop-online-card {
+    width: 100%;
+  }
+}
+
+/* @media (max-width: 1050px) {
+    .shop-online-card {
+      width: 100%;
+    }
+  } */
 
 .shop-online-card .button {
     background-color: #95AB2C;
