@@ -92,7 +92,10 @@ b {
 }
 
 @media (max-width: 1050px) {
-    
+
+    h2 {
+        font-size: 3.7rem;
+    }
 }
 
 
@@ -184,8 +187,15 @@ nav img:first-child {
         display:block;
         height: 40px;
     }
+}
 
 
+@media (max-width: 600px) {
+  
+    .fixed {
+        padding: 13px 30px;
+
+    }
 }
 
 
@@ -197,6 +207,7 @@ nav img:first-child {
     align-items: center;
     gap:20px;
     padding:250px 0 100px 0;
+    text-align: center;
 }
 
 .header-text button {
@@ -224,6 +235,7 @@ nav img:first-child {
 }
 
 
+
 /* red banner */
 
 .red-banner {
@@ -249,7 +261,11 @@ nav img:first-child {
     height: 40px;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 800px) {
+
+    .red-banner p {
+        display: none;
+    }
 
     
 }
@@ -283,6 +299,12 @@ nav img:first-child {
     border-radius: 20px;
 }
 
+@media (max-width: 800px) {
+    #info-section {
+        flex-direction: column;   
+    } 
+}
+
 /* image card*/
 
 
@@ -300,6 +322,17 @@ nav img:first-child {
 
 .img-card img {
     border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    .img-card {
+        width: 100%;
+    } 
+
+    .img-card img {
+        height: 400px;
+        object-fit: cover;
+    }
 }
 
 
@@ -329,6 +362,13 @@ nav img:first-child {
     background-color: hsl(41, 100%, 76%);
     border-radius: 20px;
 }
+
+@media (max-width: 800px) {
+    .usp-points {
+        width: 100%;
+    }
+}
+
 
 
 
@@ -409,6 +449,10 @@ nav img:first-child {
     text-align: center;
     margin-top: 20px;
 }
+
+/* @media (max-width: 900px) {
+  // Add your styles here
+} */
 
 /* button card*/
 
