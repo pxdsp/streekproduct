@@ -185,7 +185,7 @@ nav img:first-child {
 
     nav img:first-child {
         display:block;
-        height: 40px;
+        height: 30px;
     }
 }
 
@@ -194,10 +194,16 @@ nav img:first-child {
   
     .fixed {
         padding: 13px 30px;
-
     }
 }
 
+@media (max-width: 450px) {
+  
+    .fixed {
+        padding: 13px 20px;
+    }
+
+}
 
 /* header text */
 
@@ -231,6 +237,13 @@ nav img:first-child {
 
     header h1 {
         font-size: 5rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    header h1 {
+        font-size: 4rem;
     }
 }
 
@@ -485,26 +498,35 @@ nav img:first-child {
     margin-top: 20px;
 }
 
-
+/* cards */
 
 .all-button-cards {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
-}
-
-.button-card {
+    gap: 10px; 
+  }
+  
+  .button-card {
     border-radius: 20px;
-    padding:20px;
-    overflow: clip;
-    margin:10px;
+    padding: 20px;
+    margin: 10px;
     background-color: #F9F2E8;
-
     flex: 1 1 calc(33.33% - 20px); 
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    min-width: 250px; 
+    overflow: hidden; 
+  }
+  
 
-}
+  @media (max-width: 650px) {
+    .button-card {
+      flex: 1 1 100%; 
+    }
+  }
 
 .button-card img:first-child {
     height: 250px;
@@ -814,4 +836,60 @@ button:hover {
 
 #buy-favourites img:first-child:hover {
     transform: scale(1.05);
+}
+
+
+/*----------------------------MOBILE FIX-----------------------------------*/
+
+
+@media (max-width: 450px) {
+  
+    .header-content {
+        margin:30px 10px;
+    }
+
+    #info-section {
+        margin:30px 10px;
+        padding:10px;
+
+    }
+
+    #buy-favourites {
+        margin:30px 10px;
+        padding:10px;
+    }
+
+    #inspiration-section {
+        margin:30px 10px;
+        padding:10px;
+    }
+
+    #pointofsale-section {
+        margin:30px 10px;
+        padding:10px;
+    }
+
+    #ourstory-section {
+        margin:30px 10px;
+        padding:10px;
+    }
+
+    #banner-section {
+        margin:30px 10px;
+        padding:30px 20px;
+    }
+
+    footer {
+        margin:30px 10px;
+    }
+
+    
+}
+
+
+@media (max-width: 450px) {
+
+    h1 {
+        font-size: 4rem;
+    }
 }
