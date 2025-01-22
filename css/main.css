@@ -147,7 +147,7 @@ nav {
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 450px) {
   nav {
     padding: 20px 20px 0 20px;
   }
@@ -217,6 +217,58 @@ nav img:first-child {
     }
 
 }
+
+/* hamburger menu open */
+
+
+.fixed-hamburger {
+    padding: 40px 40px 0px 40px;
+    height: fit-content;
+
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 110px; 
+    left: 0; 
+    box-sizing: border-box; 
+}
+
+.fixed-hamburger ul {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    padding: 13px 60px;
+    background-color: #F9F2E8;
+    border-radius: 20px;
+    width: 100%;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+}
+
+/* Verberg de checkbox */
+.toggle-checkbox {
+    display: none;
+  }
+  
+  /* Basisstijl voor de fixed-hamburger (verborgen standaard) */
+  .fixed-hamburger {
+    display: none;
+  }
+  
+  /* Als de checkbox is aangevinkt, toon de fixed-hamburger */
+.toggle-checkbox:checked ~ .fixed-hamburger {
+    display: block;
+  }
+  
+  /* Hamburger button stijl */
+  label[for="toggle-menu"] {
+    cursor: pointer;
+  }
+
+
 
 /* header text */
 

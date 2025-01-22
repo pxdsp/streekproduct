@@ -31,7 +31,24 @@
 <header>
     <nav>
         <div class="fixed">
-            <a href=""><img src="images/icon-hamburger.png" alt=""></a>
+            <!-- Hidden checkbox for toggling -->
+            <input type="checkbox" id="toggle-menu" class="toggle-checkbox">
+
+            <!-- Label acts as the hamburger button -->
+            <label for="toggle-menu">
+                <img src="images/icon-hamburger.png" alt="Hamburger icon">
+            </label>
+
+            <div class="fixed-hamburger">
+                <ul>
+                    <li><a href="#info-section"><p>Info</p></a></li>
+                    <li><a href="#buy-favourites"><p>Buy</p></a></li>
+                    <li><a href="#inspiration-section"><p>Inspiration</p></a></li>
+                    <li><a href="#pointofsale-section"><p>Sale points</p></a></li>
+                    <li><a href="#ourstory-section"><p>Our story</p></a></li>
+                </ul>
+            </div>
+
             <img src="images/logo-main.png" alt="Botega Cueva Logo">
             <ul>
                 <li><a href="#info-section"><p>Info</p></a></li>
